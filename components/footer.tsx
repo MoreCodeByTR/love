@@ -2,7 +2,7 @@
 
 import type { FC } from 'react';
 
-const Footer: FC = () => {
+export const Footer: FC = () => {
   return (
     <footer className="w-full py-12 bg-transparent backdrop-blur-sm border-t border-white/10">
       <div className="container mx-auto px-4">
@@ -20,5 +20,3 @@ const Footer: FC = () => {
     </footer>
   )
 }
-
-export default Footer;

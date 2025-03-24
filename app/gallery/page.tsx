@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { Nav } from '@/components/nav';
-import Footer from '@/components/footer';
+import {Footer} from '@/components/footer';
 
 const photos = [
   {
